@@ -34,5 +34,12 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+        super.increaseCapacity(1);
     }
+
+//    public static void main(String[] args) {
+//        HandBag b = new HandBag("white", 4);
+//        b.enhance();
+//        System.out.println(b.getCapacity());
+//    }
 }
